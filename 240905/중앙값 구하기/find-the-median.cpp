@@ -8,10 +8,11 @@ int main() {
 
     if((a<b && a>c)|| (a<c && a>b)){
         cout<<a;
-    }else if( (a>b && b>c) || (c>b && b<a)){
+    }else if((a>b && b>c) || (c>b && b<a)){
         cout<<b;
-    }else{
+    }else if((a>c && c>b) || (b>c && a<c)){
         cout<<c;
     }
+    
     return 0;
 }
