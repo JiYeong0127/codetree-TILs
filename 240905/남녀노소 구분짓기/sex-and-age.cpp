@@ -7,7 +7,7 @@ int main() {
     cin>> g>>a;
     if(g == 0 && a >=19){
         cout<<"MAN";
-    }else
+    }else if(g == 0 && a < 19)
         cout<<"BOY";
 
     if(g==1 && a>=19){
