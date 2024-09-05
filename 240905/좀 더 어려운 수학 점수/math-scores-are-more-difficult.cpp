@@ -5,7 +5,7 @@ int main() {
     // 여기에 코드를 작성해주세요.
     int aE, aM, bE, bM;
     cin>> aM>>aE>>bM>>bE;
-    
+
      if (aM == bM) {
      if (aE > bE) {
          cout << 'A';
@@ -17,7 +17,7 @@ int main() {
  if (aM > bM) {
      cout << 'A';
  }
- else
+ else if(aM < bM)
  {
      cout << 'B';
  }
