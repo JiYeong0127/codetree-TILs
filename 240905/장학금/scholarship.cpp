@@ -6,14 +6,12 @@ int main() {
     int min, fin;
     cin>> min>>fin;
 
-    if(min>=90){
-        if(fin>=95){
+    if(min>=90 && fin>= 95){
             cout<<100000;
-        }else if(fin>=90){
+    }else if(min>=90 && fin>=90){
             cout<<50000;
-        }
-    }else{
-        cout<<0;
-    }
+    }else
+    cout<<0;
+
     return 0;
 }
